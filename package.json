@@ -1,0 +1,40 @@
+{
+  "name": "lightning-katas",
+  "version": "0.0.1",
+  "description": "A collection of code katas to help JavaScript programmers hone their skills through practice and repetition",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/grunt clean test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jan-molak/lightning-katas.git"
+  },
+  "keywords": [
+    "tdd",
+    "exercise",
+    "smartcode"
+  ],
+  "author": "Jan Molak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jan-molak/lightning-katas/issues"
+  },
+  "homepage": "https://github.com/jan-molak/lightning-katas",
+  "devDependencies": {
+    "chai": "1.9.1",
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-clean": "0.6.0",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-mocha-istanbul": "2.0.0",
+    "istanbul": "0.3.0",
+    "mocha": "1.21.4",
+    "sinon": "1.10.3",
+    "sinon-chai": "2.5.0"
+  },
+  "dependencies": {
+    "lodash": "2.4.1",
+    "q": "1.0.1"
+  }
+}
