@@ -18,6 +18,12 @@ describe('"hello" function', function () {
         expect(hello('pl')).to.equal('Witaj Świecie!');
     });
 
+    // exercise 2: add more languages! :-)
+    it('greets the world in Turkish', function () {
+        expect(hello('tr')).to.equal('Merhaba dunya!');
+    });
+
+
     // exercise 3: what should happen when the argument is not a valid? use some defaults? throw an error?
     it('greets the world event thought it is an invalid language', function () {
         var myObject = {};
