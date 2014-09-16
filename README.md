@@ -14,6 +14,7 @@ Pretty much the same as [Test-Driven Tuesday repository setup](https://github.co
 * **Fork**: [Fork this repository](https://github.com/jan-molak/lightning-katas/fork)
 * **Clone**: Clone your fork - `git clone https://github.com/< MyGitHubAccount >/lightning-katas.git`
 * **Set up Upstream**: [Set up the upstream repository](https://help.github.com/articles/syncing-a-fork) so that you can sync
+* **Get dependencies**: Run `npm install` (make sure you have [node.js](http://nodejs.org/) installed ;-) )
 * **Validate**: run `npm test`
 
 ## Feeling Lucky?
