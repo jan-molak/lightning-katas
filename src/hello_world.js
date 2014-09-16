@@ -1,5 +1,11 @@
 'use strict';
+var _ = require('lodash');
 
 module.exports = function (language) {
-    return !language ? 'สวัสดี':( language === 'en' ? 'Hello World!' : 'Witaj Świecie!');
+    var greetings = {
+        en : 'Hello World!',
+        th : 'สวัสดี',
+        pl : 'Witaj Świecie!'
+    };
+    return _.isString(language) ? greetings[language] : greetings.th;
 };
