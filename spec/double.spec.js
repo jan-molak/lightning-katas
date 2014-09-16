@@ -10,6 +10,9 @@ describe('"double" function', function () {
     });
 
     // exercise 1: should work with a list of numbers, i.e. double ([1, 2, 3]) -> [2, 4, 6]
+    it('doubles an array of numbers passed to it', function () {
+        expect(double([1,2,3])).to.deep.equal([2,4,6])
+    });
 
     // exercise 2: should work with a variable list of arguments, i.e. double (1, 2, 3) -> [2, 4, 6]
 
