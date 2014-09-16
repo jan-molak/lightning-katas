@@ -19,4 +19,9 @@ describe('"hello" function', function () {
     });
 
     // exercise 3: what should happen when the argument is not a valid? use some defaults? throw an error?
+    it('greets the world event thought it is an invalid language', function () {
+        var myObject = {};
+        expect(hello(myObject)).to.equal('สวัสดี');
+    });
+
 });
