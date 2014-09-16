@@ -10,7 +10,9 @@ describe('"hello" function', function () {
     });
 
     // exercise 1: what should happen by default when hello() is called with no arguments?
-
+    it('greets with Thai by default', function () {
+        expect(hello()).to.equal('สวัสดี');
+    });
     // exercise 2: add more languages! :-)
     it('greets the world in Polish', function () {
         expect(hello('pl')).to.equal('Witaj Świecie!');
