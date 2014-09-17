@@ -9,5 +9,5 @@ module.exports = function (language) {
         tr : 'Merhaba dunya!'
     };
 
-    return _.isString(language) ? greetings[language] : greetings.th;
+    return _.isString(language) && greetings.hasOwnProperty(language) ? greetings[language] : greetings.th;
 };
