@@ -1,6 +1,6 @@
 'use strict';
 
-var expect   = require('chai').expect,
+var expect = require('chai').expect,
     fizzbuzz = require('../src/fizzbuzz');
 
 describe('"fizzbuzz" function', function () {
@@ -20,12 +20,14 @@ describe('"fizzbuzz" function', function () {
     });
 
     // exercise 3: return "Not a FizzBuzz" when not called with a number divisible by both 3 and 5
-    it('returns "Not a FizzBuzz" when not called with a number divisible by 3 and 15', function () {
+    it('when not a facter of 3 or 5, in this case original number returned... ', function () {
         expect(fizzbuzz(1)).to.equal(1);
     });
 
     // exercise 3: return "Not a FizzBuzz" when not called with a number divisible by both 3 and 5
     it('returns "Not Valid Input" if it is invalid input', function () {
-        expect(function(){ fizzbuzz({}) }).to.throw("Not Valid Input");
+        expect(function () {
+            fizzbuzz({})
+        }).to.throw("Not Valid Input");
     });
 });
