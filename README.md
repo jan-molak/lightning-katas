@@ -9,7 +9,7 @@ Lightning Katas
 
 ## Set up
 
-Pretty much the same as [Test-Driven Tuesday repository setup](https://github.com/jan-molak/test-driven-tuesday#one-time-set-up) :-)
+Pretty much the same as [Test-Driven Tuesday repository setup](https://github.com/jan-molak/test-driven-tuesday/blob/master/README.md#workshop-setup) :-)
 
 * **Fork**: [Fork this repository](https://github.com/jan-molak/lightning-katas/fork) into `https://github.com/< MyGitHubAccount >/lightning-katas`
 * **Clone**: Clone original repo - `git clone https://github.com/jan-molak/lightning-katas.git`
