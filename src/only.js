@@ -3,9 +3,8 @@ var _ = require('lodash');
 
 module.exports = function (oddOrEven) {
     return function (input) {
-        var numbers = _.isArray(input)
-            ? input
-            : _.toArray(arguments);
+        var numbers = _.isArray(input) ? input
+                                       : _.toArray(arguments);
 
         return _.filter(numbers, oddOrEven);
 
