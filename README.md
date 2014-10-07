@@ -9,8 +9,8 @@ Lightning Katas
 
 ## Set up
 
-* **Repo setup**: Follow the setup in [Test-Driven Tuesday repository setup](https://github.com/jan-molak/test-driven-tuesday#one-time-set-up) :-)
-* **Get dependencies**: Run `npm install` (make sure you have [node.js](http://nodejs.org/) installed ;-) )
+* **Repo setup**: Follow the setup in [Test-Driven Tuesday repository setup](https://github.com/jan-molak/test-driven-tuesday#workshop-setup) :-)
+* **Get dependencies**: Run `npm install` (make sure you have [node.js](http://nodejs.org/) installed! )
 * **Validate**: run `npm test`
 
 Now you can `git pull` from origin and `git push` to your fork without verbose commands like `git pull origin master`
