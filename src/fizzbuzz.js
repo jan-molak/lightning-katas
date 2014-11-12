@@ -6,7 +6,6 @@ module.exports = function (number) {
     if (!_.isNumber(number)) {
         throw new Error('Not Valid Input');
     }
-
     /*jshint -W014 */
     return number % 3 === 0 && number % 5 === 0 ?
         'FizzBuzz'
